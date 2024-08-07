@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">VictorOsaikhuwuomwan_COMP304_S24_FinalTest_HandsOn</string>
+    <string name="stock_symbol">Stock Symbol</string>
+    <string name="company_name">Company Name</string>
+    <string name="opening_price">Opening Price</string>
+    <string name="closing_price">Closing Price</string>
+    <string name="insert_stock">Insert Stock</string>
+    <string name="company_a">Company A</string>
+    <string name="company_b">Company B</string>
+    <string name="display_stock_info">Display Stock Info</string>
+    <string name="stock_info_display">Stock Info will be displayed here</string>
+</resources>

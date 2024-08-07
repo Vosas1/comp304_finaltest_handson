@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stock Information"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnInsert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INSERT STOCKS (HARDCODE)" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select stock symbol:"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupStocks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioGOOGL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GOOGL" />
+
+        <RadioButton
+            android:id="@+id/radioAMZN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AMZN" />
+
+        <RadioButton
+            android:id="@+id/radioSSNLF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SSNLF" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DISPLAY STOCK INFO" />
+
+    <TextView
+        android:id="@+id/textViewStockInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Stock Info will be displayed here"
+        android:textSize="16sp" />
+</LinearLayout>
